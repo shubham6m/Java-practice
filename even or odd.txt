@@ -1,0 +1,43 @@
+ a=45
+if(a%2==0);
+  print("num is even"):
+else:
+  print("num is odd")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

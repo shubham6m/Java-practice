@@ -1,0 +1,5 @@
+  y=2056
+if(y%4==0):
+  print("year is leap year")
+else:
+  print("year is not leap year")
