@@ -1,3 +1,4 @@
+//print number of 7's in 2-d array
 public class Search{
     public static int search(int arr[][]){
         int count=0;
