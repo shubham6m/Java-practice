@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class DiagonalSum {
     public static void Sum(int arr[]){
-        if ()
+    
     }
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);

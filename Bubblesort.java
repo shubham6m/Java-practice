@@ -11,9 +11,6 @@ public class Bubblesort{
             }
         }
     }
-
-
-
 public static void main(String args[]){
    int arr[] = {2, 4, 6, 1, 7};
     sort(arr);
