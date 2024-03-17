@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Pattern1 {
+   //print square/rectangle type structure
    /*
     * public static void shape(int row, int col) {
     * for (int i = 1; i <= row; i++) {
@@ -8,9 +9,9 @@ public class Pattern1 {
     * if (i == row || j == col || i == 1 || j == 1)
     * 
     * {
-    * System.out.println("* ");
+    * System.out.print("* ");
     * } else {
-    * System.out.println(" ");
+    * System.out.print("  ");
     * }
     * }
     * System.out.println();
