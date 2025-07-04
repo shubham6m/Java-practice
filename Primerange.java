@@ -1,19 +1,59 @@
-import java.util.Scanner;
-public class Primerange{
+// public class Primerange{
+//   public static void primePrint(int low, int high){
+//     if(low<1){
+//       System.out.println("can't print prime series");
+//     }
+//     else{
+//       for(int i = low; i<=high; i++){
+//         boolean isPrime = true;
+//         if(i < 2) {
+//           isPrime = false;
+//         } else {
+//           for(int j = 2; j <= Math.sqrt(i); j++){
+//             if(i % j == 0){
+//               isPrime = false;
+//               break;
+//             }
+//           }
+//         }
+//         if(isPrime){
+//           System.out.println(i+" ");
+//         }
+//       }
+//     }
+//   }
+//   public static void main(String args[]){
+//     Primerange(5, 20);
+//   }
+// }
 
-public static void isprime(int a){
-boolean res = true; 
-for (int i=2;i<=Math.sqrt(a);i++)
-if (a%i==0)
-res = false;
-if(res == true)
-System.out.println(i);
-}
- public static void main(String args[]){
-System.out.println("enter the range: ");
-System.out.println("ending digit: ");
-Scanner sc = new Scanner(System.in);
-int r1 = sc.nextInt();
-isprime(r1);
-}
+
+public class prime{
+  public static void Primerange(int n){
+    if(n<1){
+      System.out.println("can't print");
+    }
+    else{
+      for(int i = 0; i<n; i++){
+        boolean isPrime = true;
+        if(i<=2){
+          isPrime = false;
+        }else{
+          for(int j = 2; j<Math.sqrt(i); j++){
+            if(i%j == 0){
+              isPrime = false;
+              break;
+            }
+          }
+          if(isPrime){
+            System.out.println(i + " ");
+          }
+        }
+        
+      }
+    }
+  }
+  public static void main(String[] args) {
+    Primerange(10);
+  }
 }
