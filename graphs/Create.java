@@ -45,7 +45,7 @@ public class Create {
             }
         }
     }
-//dfs
+//dfs 1st method for small 
 public static void dfs(ArrayList<Edges> graph[], boolean vis[], int curr){
     //print curr
     System.out.print(curr+" ");
@@ -56,6 +56,53 @@ public static void dfs(ArrayList<Edges> graph[], boolean vis[], int curr){
         if(!vis[e.dest]){
             dfs(graph, vis, e.dest);
         }
+    }
+//dis method 2
+//for medium to large size graph we use explicit stack
+public class DFSIterative {
+    static void dfsUsingStack(int start, List<List<Integer>> adjList, int vertices) {
+        boolean[] visited = new boolean[vertices];
+        Stack<Integer> stack = new Stack<>();
+
+        stack.push(start);
+
+        while (!stack.isEmpty()) {
+            int current = stack.pop();
+
+            if (!visited[current]) {
+                System.out.print(current + " ");
+                visited[current] = true;
+            }
+
+            // Push all unvisited neighbors
+            for (int neighbor : adjList.get(current)) {
+                if (!visited[neighbor]) {
+                    stack.push(neighbor);
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        int vertices = 4;
+        List<List<Integer>> adjList = new ArrayList<>();
+
+        // Initialize adjacency list
+        for (int i = 0; i < vertices; i++)
+            adjList.add(new ArrayList<>());
+
+        // Add undirected edges
+        adjList.get(0).add(1);
+        adjList.get(0).add(3);
+        adjList.get(1).add(0);
+        adjList.get(1).add(2);
+        adjList.get(2).add(1);
+        adjList.get(2).add(3);
+        adjList.get(3).add(0);
+        adjList.get(3).add(2);
+
+        System.out.println("DFS (using Stack) starting from node 0:");
+        dfsUsingStack(0, adjList, vertices);
     }
 }
 //check bipartite a graph or not
