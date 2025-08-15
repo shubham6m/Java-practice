@@ -9,12 +9,28 @@ It serves as a personal learning space to improve Java programming skills and ex
 
 The repository is divided into multiple folders, each focusing on a specific area of Java:
 
-- **Basics/** – Core Java fundamentals like variables, loops, conditionals, and data types.
-- **OOPs/** – Object-Oriented Programming concepts such as classes, objects, inheritance, polymorphism, and encapsulation.
-- **DSA/** – Data Structures and Algorithms problems (arrays, strings, linked lists, stacks, queues, trees, graphs, etc.).
-- **Java-8/** – Features like Streams, Lambda expressions, and functional programming.
-- **Projects/** – Small projects or programs that combine multiple concepts.
-- **Misc/** – Any additional practice programs or experiments.
+- **Exception handling/** – Programs demonstrating try-catch-finally, throw/throws, and custom exceptions.
+- **Generics/** – Examples of generic classes, methods, and type parameters in Java.
+- **Greedy/** – Greedy algorithm-based problem solutions.
+- **Heaps (Priority Queue)/** – Implementations of Min Heap, Max Heap, and priority queue problems.
+- **Java DSA Problems/** – Mixed data structure and algorithm practice problems.
+- **Linked List/** – Singly, doubly, and circular linked list operations and problems.
+- **Patten Print Problem/** – Java programs to print patterns using loops (stars, numbers, etc.).
+- **Stack/** – Stack operations and related problem-solving.
+- **String/** – String manipulation, searching, and algorithm-based problems.
+- **Vectors/** – Programs using Java Vector class for dynamic arrays.
+- **array/** – Array-based problems like searching, sorting, and manipulation.
+- **binary tree/** – Binary tree creation, traversal, and problem-solving.
+- **constructor/** – Examples of default, parameterized, and copy constructors.
+- **dp/** – Dynamic Programming problems and solutions.
+- **graphs/** – Graph representations and algorithms (BFS, DFS, shortest paths).
+- **hashing/** – HashMap, HashSet, and hashing-based problems.
+- **multithreading/** – Thread creation, synchronization, and concurrency examples.
+- **oops/** – Object-Oriented Programming concepts like inheritance, polymorphism, abstraction, and encapsulation.
+- **queue/** – Queue, deque, and priority queue implementations.
+- **segment tree/** – Segment tree implementation for range queries.
+- **sliding window/** – Sliding window technique for subarray and substring problems.
+- **sorting/** – Sorting algorithms like bubble, merge, quick, and insertion sort.
 
 *(Folder names may change or expand as the repository grows.)*
 
